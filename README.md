@@ -11,12 +11,12 @@ Our results showed:
 * The high_risk precision is about 1% only with 62% sensitivity, which makes a F1 of 2% only. 
 * the low_risk population, has a precision of almost 100% with a sensitivity of 68%.
 
-![oversampleclass](https://github.com/danielle-askew/Credit_Risk_Analysis/Images/RandomOverSampler_Model.png)
+![oversampleclass](Images/RandomOverSampler_Model.png)
   
  ## SMOTE 
 SMOTE, Synthetic Minority Oversampling Technique Model,  is similar to RandomOverSampler. It increases the size of the minority class by creating new values based on the value of the closest neighbors to the minority class instead of random selection.
  
-![oversampleclass](https://github.com/danielle-askew/Credit_Risk_Analysis/Images/SMOTE_Model.png)
+![oversampleclass](Images/SMOTE_Model.png)
 
 The results are pretty similar to the previous model.
 * The balanced accuracy score is 65.6%.
@@ -30,7 +30,7 @@ In this section, we tested undersampling algorithms to determine which algorithm
 * The "High Risk" precision rate was only at 1% with the recall at 69% giving this model an F1 score of 1%.
 * The "Low Risk" precision rate was 100% and with a lower recall at 40% compared to the oversampling models.
 
-![undersampleclass](https://github.com/danielle-askew/Credit_Risk_Analysis/Images/Undersample_Model.png)
+![undersampleclass](Images/Undersample_Model.png)
 
 ## Deliverable 2: Use the SMOTEENN algorithm to Predict Credit Risk
 In this section, we tested combination over- and under-sampling algorithm to determine if the algorithm results in the best performance compared to the other sampling algorithms above. We resampled the data using the SMOTEENN algorithm. 
@@ -41,7 +41,7 @@ In this section, we tested combination over- and under-sampling algorithm to det
 * The "High Risk" precision rate did not improve however and was only 1%. The recall rate did increase to 72%, which gives this model an F1 score of 2%.
 * The "Low Risk" precision rate was 100% with the recall at 57%.
 
-![combosampleclass](https://github.com/danielle-askew/Credit_Risk_Analysis/Images/Combo_Model.png)
+![combosampleclass](Images/Combo_Model.png)
 
 ## Deliverable 3: Use Ensemble Classifiers to Predict Credit Risk
 In this section, we compared two ensemble algorithms to determine which algorithm results in the best performance. We used the Balanced Random Forest Classifier and an Easy Ensemble AdaBoost classifier.
@@ -54,7 +54,7 @@ In this section, we compared two ensemble algorithms to determine which algorith
 * The "Low Risk" had a precision rate of 100% and the recall at 87%.
 * With the top feature by importance showing as "total_rec_prncp" at 7.9% of the total.
 
-![Ensemblesampleclass](https://github.com/danielle-askew/Credit_Risk_Analysis/Images/RandomForest_Model.png)
+![Ensemblesampleclass1](Images/RandomForest_Model.png)
 
 ## EasyEnsembleClassifier Model, a set of classifiers where individual decisions are combined to classify new examples.
 
@@ -62,7 +62,7 @@ In this section, we compared two ensemble algorithms to determine which algorith
 * Our "High Risk precision rate increased to 9%. The recall rate as at 92% giving this model an F1 score of 16%.
 * Our "Low Risk" had a precision rate of 100%. The recall rate showing at 94%.
 
-![Ensemblesampleclass](https://github.com/danielle-askew/Credit_Risk_Analysis/Images/EasyEnsemble_Model.png)
+![Ensemblesampleclass](Images/EasyEnsemble_Model.png)
 
 # Summary
 Reviewing all six of our models, we can see that our EasyEnsembleClassifer model had the best results in predticing  the "High Risk" candidates. The accuracy showed a rate of 93.2% and a 9% precision rate. The sensitivity rate displayed 92%, which was higher compared to the other models. 
