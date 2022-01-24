@@ -66,4 +66,4 @@ In this section, we compared two ensemble algorithms to determine which algorith
 
 # Summary
 Reviewing all six of our models, we can see that our EasyEnsembleClassifer model had the best results in predticing  the "High Risk" candidates. The accuracy showed a rate of 93.2% and a 9% precision rate. The sensitivity rate displayed 92%, which was higher compared to the other models. 
-When looking at the "Low Risk" category the sensitivity rate at 94% and an F1 score of 97% which was the highest out of the other models. Being that we got the highest results from this model, it is clear we would recommend to use this as the type of analysis.
+When looking at the "Low Risk" category the sensitivity rate was at 94% and had an F1 score of 97%, which was the highest out of the other models. Being that we got the highest results from this model, it is clear we would recommend to use this as the type of analysis.
